@@ -3,6 +3,10 @@ html {
   background-color: #f2f1ed;
 }
 
+* {
+  box-sizing: inherit;
+}
+
 body {
   background-color: #fdf6e3;
 }
