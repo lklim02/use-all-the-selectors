@@ -43,15 +43,15 @@ a:not(.no-highlight) {
   background-color: #719e07;
 }
 
-[rel="external"] {
+a[rel="external"] {
   background-color: #2694d8;
 }
 
-ol li:first-of-type {
+ol li:first-child {
   color: #719e47;
 }
 
-ol li:last-of-type {
+ol li:last-child {
   color: #2aa198;
 }
 
@@ -63,6 +63,6 @@ ul li:nth-child(even) {
   background-color: #586e75;
 }
 
-ul li:nth-child(3) {
+ul li:nth-child(3n) {
   background-color: #d04b16;
 }
