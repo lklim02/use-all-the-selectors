@@ -27,16 +27,12 @@ nav ul {
   background-color: #eee8d5;
 }
 
-.contents {
+#content, #favs, #facts, #types {
   color: #93a1a1;
 }
 
-.favs {
-  color: #93a1a1;
-}
-
-.types {
-  color: #93a1a1;
+main > p {
+  background-color: #b58900;
 }
 
 h2 {
